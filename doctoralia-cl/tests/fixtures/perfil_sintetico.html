@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- Perfil SINTÉTICO para pruebas: profesional ficticio, imita la estructura
+     habitual de Doctoralia/Docplanner. No corresponde a ninguna persona real. -->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ps. Ana Ejemplo Prueba - Psicólogo en Santiago</title>
+  <meta name="description" content="Psicóloga clínica con 10 años de experiencia en terapia adultos.">
+  <link rel="canonical" href="https://www.doctoralia.cl/ana-ejemplo-prueba/psicologo/santiago">
+  <script>
+    ZLApp.AppConfig = { DOCTOR_ID: 123456, FULLNAME: 'Ana Ejemplo Prueba', CITY: { NAME: 'Santiago' } };
+  </script>
+  <script>
+    dataLayer['doctor-name'] = 'Ana Ejemplo Prueba';
+    dataLayer['city'] = 'santiago';
+    dataLayer['region'] = 'region-metropolitana';
+    dataLayer['specialization'] = 'psicologo';
+    dataLayer['virtual-consultation-profile'] = '1';
+  </script>
+</head>
+<body>
+  <div itemscope itemtype="http://schema.org/Physician">
+    <h1><span>Ps.</span> <span itemprop="name">Ana Ejemplo Prueba</span></h1>
+    <div data-test-id="doctor-specializations"><a href="/psicologo">Psicólogo</a>, <a href="/psicologo-infantil">Psicólogo infantil</a></div>
+    <p>Nº de registro: 654321</p>
+    <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+      <meta itemprop="reviewCount" content="42">
+      <meta itemprop="ratingValue" content="4.9">
+    </div>
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <span itemprop="streetAddress">Av. Providencia 1234, of. 501</span>
+      <span itemprop="addressLocality">Providencia</span>
+      <meta itemprop="addressRegion" content="Región Metropolitana">
+    </div>
+    <ul>
+      <li data-id="service-item">Primera consulta psicología <span data-id="service-price">$35.000</span></li>
+      <li data-id="service-item">Psicoterapia individual <span data-id="service-price">$30.000</span></li>
+      <li data-id="service-item">Terapia de pareja <span data-id="service-price">$30.000</span></li>
+      <li data-id="service-item">Informe psicológico <span data-id="service-price">Precio variable</span></li>
+    </ul>
+    <section><h3>Previsiones</h3><p>Fonasa, Banmédica, Colmena y pacientes particulares</p></section>
+    <p>Consulta en línea disponible</p>
+    <div class="opinion"><time datetime="2026-08-01T10:00:00-04:00">1 ago</time></div>
+    <div class="opinion"><time datetime="2026-09-15T18:30:00-03:00">15 sep</time></div>
+  </div>
+</body>
+</html>
